@@ -1,3 +1,4 @@
+region: au
 tunnels:
   jellyfin:
     proto: http
@@ -5,8 +6,4 @@ tunnels:
   media_filebrowser:
     proto: http
     addr: 192.168.1.233:8123
-    bind_tls: true
-  pihole:
-    proto: http
-    addr: 192.168.1.200
     bind_tls: true
