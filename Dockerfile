@@ -1,4 +1,5 @@
 FROM alpine:latest
+LABEL maintainer="Simon Eason <sie.eason@gmail.com>"
 
 RUN set -ex \
   && apk add --no-cache --virtual .build-deps wget \
