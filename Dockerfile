@@ -14,6 +14,4 @@ RUN set -ex \
 COPY ngrok.yml /ngrok.yml
 COPY run.sh /bin/run.sh
 
-EXPOSE 4040
-
 CMD ["/bin/run.sh"]
