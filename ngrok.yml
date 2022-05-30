@@ -3,6 +3,7 @@ tunnels:
   jellyfin:
     proto: http
     addr: 192.168.1.233:8096
+    bind_tls: true
   media_filebrowser:
     proto: http
     addr: 192.168.1.233:8123
