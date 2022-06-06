@@ -8,3 +8,8 @@ tunnels:
     proto: http
     addr: 192.168.1.233:8123
     bind_tls: true
+  unraid_filebrowser:
+    proto: http
+    addr: 192.168.1.88:8123
+    bind_tls: true
+    
